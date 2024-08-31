@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Dashur - Web Designer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!---scroll animations-->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--end-->
+<!--lightbox-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<!--end-->
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+<!--end-->
+
+
+</head>
+<body> 
+
+  
+    <header>
+       
+        <div class="header-content">
+            <div class="header-text">
+                <p>Web Designer & Developer</p>
+                <h2 id="typed-output"></h2>
+                <button onclick="scrollToAbout()">Learn More</button>
+            </div>
+            <div class="header-image">
+                <img src="Images/olumide.jpg" alt="Michael Dashur">
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#timeline">JOURNEY</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#testimonials">WPS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            
+
+        </ul>
+    </nav>
+    <section class="parallax" id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+
+        <p class="about-me-paragraph">
+
+            Hello! I'm Michael Dashur, a dedicated and enthusiastic web designer based in Lagos, Nigeria. Born on July 10, 2007, I've always been drawn to the creative and technical aspects of web development. At 17, I am proud to have graduated from Mare Secondary School and currently further my education with an Advanced Diploma in Software Engineering (ADSE) at Aptech Nigeria.
+            
+            My journey into the world of web design began early, driven by a fascination with how websites can blend aesthetics with functionality. I specialize in using HTML, CSS, and JavaScript to craft visually appealing and user-friendly websites. My designs aim to provide seamless user experiences while incorporating modern trends and responsive design principles.
+            
+            Being Nigerian is a significant part of my identity, and I enjoy infusing my cultural background into my projects, creating unique and meaningful digital experiences. I am passionate about learning and continually strive to expand my knowledge, staying updated with the latest advancements in web technology.
+            
+            Through my portfolio, I hope to showcase not just my technical skills but also my commitment to innovation and excellence in design. I look forward to connecting with like-minded individuals and contributing to exciting projects that make a difference.</p></section>
+    
+    
+            <section id="skills" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML</h4>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS</h4>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <p>Intermediate</p>
+                    </div>
+                    <!-- Add more skills as needed -->
+                </div>
+            </section>
+            <section id="timeline">
+                <h2>My Journey</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>2022</h3>
+                            <p>Graduated from Mare Secondary School, Lagos.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>2023</h3>
+                            <p>Started Advanced Diploma in Software Engineering at Aptech Nigeria.</p>
+                        </div>
+                    </div>
+                    <!-- Add more timeline items as needed -->
+                </div>
+            </section>
+            
+            
+    
+    
+            <section id="portfolio">
+
+        <h2>My Work</h2>
+<!-- Portfolio Item -->
+<div class="portfolio-item" onclick="openModal('project1-modal')">
+    <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+    <h3>Project 1 </h3>
+    
+</div>
+
+
+<!-- Modal for Project 1 -->
+<div id="project1-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('project1-modal')">&times;</span>
+        <h2>Project 1 Title</h2>
+        <p>Detailed information about Project 1.</p>
+        <img src="project1-screenshot1.jpg" alt="Project 1 Screenshot 1">
+        <img src="project1-screenshot2.jpg" alt="Project 1 Screenshot 2">
+        <!-- Add more content as needed -->
+    </div>
+</div>
+
+
+     
+    </section>
+    <section id="testimonials" data-aos="fade-up">
+        <h2>What People Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"Michael's work on our website was exceptional! He truly brought our vision to life."</p>
+                <h4>- Client Name</h4>
+            </div>
+            <div class="testimonial">
+                <p>"His attention to detail and creative approach set him apart from others. Highly recommended!"</p>
+                <h4>- Client Name</h4>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:your-email@example.com">olumidedashur@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+1234567890">09093432218</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Lagos, Nigeria</p>
+            </div>
+        </div>
+       
+
+
+        <button id="contactBtn">Contact Me</button>
+        <!-- The Modal -->
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="Images/bxl-twitter.svg" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="Images/bxl-instagram.svg" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="Images/bxl-github.svg" alt="GitHub"></a>
+            </div>
+            <p>© 2024 Michael Dashur. All Rights Reserved.</p>
+           
+    </footer>
+
+    
+
+  
+  
+    
+    
+
+
+   
+    <!--typedjs-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!--END-->
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
